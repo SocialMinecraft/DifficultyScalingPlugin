@@ -1,0 +1,4 @@
+name: DifficultyScalingPlugin
+version: '1.0.0'
+main: club.somc.difficultyscalingplugin.DifficultyScalingPlugin
+api-version: '1.20'
