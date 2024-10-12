@@ -138,6 +138,7 @@ public final class DifficultyScalingPlugin extends JavaPlugin implements Listene
     private void applyWeaponUpgrade(LivingEntity entity, float level) {
 
         // if level < 3, no weapon.
+        if (level < 3) return;
 
         Material[] swords = {
                 Material.WOODEN_SWORD,
